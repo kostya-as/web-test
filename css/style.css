@@ -309,3 +309,50 @@ footer > .container-fluid > .row {
 footer > .container-fluid > .row > .col-md-3:nth-child(4) {
     margin-left: 30px;
 }
+
+.button-telegram > img {
+    width: 25px;
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+.button-telegram {
+    font-size: 19px;
+    color: #121212;
+    border-radius: 0;
+    width: 210px;
+    height: 60px;
+}
+
+.button-telegram:hover {
+    box-shadow: 1px 2px 14px 4px rgb(0,0,0,255);
+    color: #000;
+}
+
+.button-telegram:focus {
+    box-shadow: 0px 5px 10px 3px rgb(0,0,0,255);
+}
+
+.black {
+    background: #141414;
+    color: #fff;
+}
+
+.black:hover {
+    color: #fff;
+    background: #212121;
+
+}
+
+.white {
+    background-color: #FFFFFF;
+
+}
+
+.white:hover {
+    background-color: #e6e6e6;
+}
+
+.black:focus {
+    color: #fff;
+}
