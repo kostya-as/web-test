@@ -16,8 +16,7 @@ html {
 }
 
 .gradient {
-    background: linear-gradient(180deg, #000000 -82.45%, rgba(0, 0, 0, 0) 100%);
-
+    background: linear-gradient(180deg, #000000 -53.45%, rgba(0, 0, 0, 0) 100%);
 }
 
 .bg-i-2 {
@@ -104,9 +103,11 @@ ul > li:nth-child(1) {
 }
 
 .navbar-header {
-    margin-top: 63px;
-    width: 955px;
-    height: 91px;
+    height: 150px;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
 }
 
 .navbar-header {
