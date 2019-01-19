@@ -10,6 +10,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: GothamPro;
+}
+
 .bg-i {
     background: url('../images/Main.png');
     background-size: cover;
@@ -29,6 +33,10 @@ html {
 
 .lef {
     float: left;
+}
+
+.text-block-2 > ul > li {
+    margin-bottom: 15px;
 }
 
 .bg-in-i {
