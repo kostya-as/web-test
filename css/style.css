@@ -110,7 +110,6 @@ ul > li:nth-child(1) {
     width: 100%;
     height: 100%;
 
-
 }
 
 .demo-layout-transparent .mdl-layout__header,
@@ -210,7 +209,6 @@ p, h1 {
 
 .diet {
     height: 961px;
-    padding-top: 100px;
     width: 65%;
     margin: 0 auto;
 }
@@ -256,8 +254,6 @@ p, h1 {
     margin-left: -3px;
     margin-right: 8px;
 }
-
-
 
 .cons {
     margin-bottom: 15px;
@@ -389,6 +385,14 @@ footer > .container-fluid > .row > .col-md-3:nth-child(4) {
     grid-template-columns: 250px 250px 250px;
 }
 
+.table-cost-mini {
+    width: 750px;
+    margin: 0 auto;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 375px 375px;
+}
+
 .red {
     background-color: #db0a5b;
     height: 40px;
@@ -417,4 +421,23 @@ footer > .container-fluid > .row > .col-md-3:nth-child(4) {
 .green {
     background-color: #6ec63e;
     height: 40px;
+}
+
+.cost-border {
+    border-left: 2px solid #292929;
+    padding-top: 20px;
+}
+
+.border-right {
+    border-right: 2px solid #292929;
+}
+
+.cost-border > hr {
+    width: 100px;
+    border-top: 1px solid #292929;
+}
+
+.cost-border > p {
+    color: #292929;
+    font-size: 22px;
 }
