@@ -7,24 +7,16 @@
         font-size: 16px;
     }
 
-    .ul-block {
-        margin-left: 370px;
-    }
-
     .bg-in-i {
         left: -150px;
     }
 
-    .bg-in-I {
-        margin-left: -250px;
-    }
-
-    .diet-block {
-        margin-left: 50px;
-    }
-
     .img {
         left: 1200px;
+    }
+
+    .bg-in-i-2 {
+        width: 1300px;
     }
 }
 
@@ -42,20 +34,17 @@
         left: -250px;
     }
 
-    .bg-in-I {
-        margin-left: -350px;
-    }
-
-    .diet-block {
-        margin-left: 200px;
-    }
-
-    .img {
-        left: 1050px;
-    }
-
     .bg-in-i-2 {
-        width: 1200px;
+        width: 1080px;
     }
 
+    .icon {
+        padding-left: 60px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .diet {
+        margin-left: 90px;
+    }
 }
